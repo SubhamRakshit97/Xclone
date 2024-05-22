@@ -40,6 +40,7 @@ body {
 }
 .posts li .logo {
     flex-basis: 15%;
+    height: 1vh;
 }
 .posts li .logo img {
     width: 60%;
@@ -152,11 +153,15 @@ button.dislike-button { /* New style for dislike button */
 img.post-image {
     border-radius: 15px;
     border: 5px solid aquamarine;
+    margin-left: -2vw;
 }
 .name-back{
     background-color: aqua;
 }
 
+input.myname{
+    color: black;
+}
 /* edit */
 input.editname{
     color: black;
